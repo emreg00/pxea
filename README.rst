@@ -15,16 +15,22 @@ Code for the ProXimal pathway enrichment analysis introduced in the "Targeting c
 
 ## Installing & running tests
 
-Download (i.e. clone) the files to your computer, you can use the package as a bare package (without setup.py install) or install it
-using the following command:
+Download (i.e. clone) the files to your computer, you can use the package as a bare package (importing from the same folder)
+or install it using one of the following commands:
 
 >>> python setup.py install
+
+or 
+
+>>> pip install pxea
 
 Several test cases for the methods are provided in `test/test_pxea.py`. 
 To run these, on the parent directory (where this README file resides) type
 
 >>> python -m unittest test.test_pxea
+
 or
+
 >>> python setup.py test
 
 It should give an output similar to below
